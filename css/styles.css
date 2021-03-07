@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  line-height: 22px;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+  text-align: left;
+}
+
+h3 {
+  color: hsl(71, 73%, 54%);
+  text-align: left;
+}
+
+h4 {
+  color: white;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.big-box {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  background-color: white;
+  outline-color: grey;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
+}
+
+.top-box {
+  padding: 20px 0px 20px 35px;
+}
+
+.top-text {
+  color: hsl(218, 22%, 67%);
+}
+
+.bottom-box {
+  display: flex;
+}
+
+.left-box {
+  width: 50%;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 0px 10px;
+  padding: 20px 0px 20px 35px;
+}
+
+.dollar {
+  font-size: 28px;
+}
+
+.per-month {
+  color: white;
+  opacity: 70%;
+  margin-left: 10px;
+}
+.button {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  left: 3%;
+  width: 80%;
+  height: 20%;
+  margin: 10px auto;
+  border: none;
+  box-shadow: 0 0 10px grey;
+}
+
+.right-box {
+  width: 50%;
+  background-color: hsl(179, 62%, 50%);
+  border-radius: 0px 0px 10px 0px;
+  padding: 20px 0px 20px 35px;
+}
+
+.right-text {
+  color: white;
+  opacity: 70%;
+}
